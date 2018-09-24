@@ -1,0 +1,8 @@
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_times = (C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm2010.asc  *  C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_reclass05)
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_filter1 = FOCALMEAN(C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_times,  Weight, C:\Users\oyeda\AppData\Local\Temp\arcCD6F\nbr7215, DATA)
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_filter2 = FOCALMEAN(C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_filter1,  Weight, C:\Users\oyeda\AppData\Local\Temp\arcCD6F\nbr7216, DATA)
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_filter3 = FOCALMEAN(C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_filter2,  Weight, C:\Users\oyeda\AppData\Local\Temp\arcCD6F\nbr7217, DATA)
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_negate = (  -  C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_filter3)
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_flowdir = FLOWDIRECTION(C:\Users\oyeda\Desktop\ADV_REM_SENS\a
+201709291846   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_basin = BASIN(C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3
+201709291924   0     0     0oyeda C:\Users\oyeda\Desktop\ADV_REM_SENS\assignment3\chm_reclass_05\chm_poly05 = GRIDSHAPE(C:\Users\oyeda\Desktop\ADV_REM_SENS\assign

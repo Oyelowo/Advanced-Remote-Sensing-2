@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LASlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\isenburg\AppData\Local\Temp\RSPBFCE.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\laszip\src" /I "inc" /I "..\laszip\inc" /I "..\laszip\stl" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/LASlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\LAStools\LASzip\src\arithmeticdecoder.cpp"
+"E:\LAStools\LASzip\src\arithmeticencoder.cpp"
+"E:\LAStools\LASzip\src\arithmeticmodel.cpp"
+"E:\LAStools\laslib\src\fopen_compressed.cpp"
+"E:\LAStools\LASzip\src\integercompressor.cpp"
+"E:\LAStools\laslib\src\lasfilter.cpp"
+"E:\LAStools\LASzip\src\lasindex.cpp"
+"E:\LAStools\LASzip\src\lasinterval.cpp"
+"E:\LAStools\LASzip\src\lasquadtree.cpp"
+"E:\LAStools\laslib\src\lasreader.cpp"
+"E:\LAStools\laslib\src\lasreader_asc.cpp"
+"E:\LAStools\laslib\src\lasreader_bil.cpp"
+"E:\LAStools\laslib\src\lasreader_bin.cpp"
+"E:\LAStools\laslib\src\lasreader_dtm.cpp"
+"E:\LAStools\laslib\src\lasreader_las.cpp"
+"E:\LAStools\laslib\src\lasreader_qfit.cpp"
+"E:\LAStools\laslib\src\lasreader_shp.cpp"
+"E:\LAStools\laslib\src\lasreader_txt.cpp"
+"E:\LAStools\laslib\src\lasreaderbuffered.cpp"
+"E:\LAStools\laslib\src\lasreadermerged.cpp"
+"E:\LAStools\laslib\src\lasreaderpipeon.cpp"
+"E:\LAStools\LASzip\src\lasreaditemcompressed_v1.cpp"
+"E:\LAStools\LASzip\src\lasreaditemcompressed_v2.cpp"
+"E:\LAStools\LASzip\src\lasreaditemcompressed_v3.cpp"
+"E:\LAStools\LASzip\src\lasreadpoint.cpp"
+"E:\LAStools\laslib\src\lastransform.cpp"
+"E:\LAStools\laslib\src\lasutility.cpp"
+"E:\LAStools\laslib\src\laswaveform13reader.cpp"
+"E:\LAStools\laslib\src\laswaveform13writer.cpp"
+"E:\LAStools\LASzip\src\laswriteitemcompressed_v1.cpp"
+"E:\LAStools\LASzip\src\laswriteitemcompressed_v2.cpp"
+"E:\LAStools\LASzip\src\laswriteitemcompressed_v3.cpp"
+"E:\LAStools\LASzip\src\laswritepoint.cpp"
+"E:\LAStools\laslib\src\laswriter.cpp"
+"E:\LAStools\laslib\src\laswriter_bin.cpp"
+"E:\LAStools\laslib\src\laswriter_las.cpp"
+"E:\LAStools\laslib\src\laswriter_qfit.cpp"
+"E:\LAStools\laslib\src\laswriter_txt.cpp"
+"E:\LAStools\laslib\src\laswriter_wrl.cpp"
+"E:\LAStools\laslib\src\laswritercompatible.cpp"
+"E:\LAStools\LASzip\src\laszip.cpp"
+]
+Creating command line "cl.exe @C:\Users\isenburg\AppData\Local\Temp\RSPBFCE.tmp" 
+Creating temporary file "C:\Users\isenburg\AppData\Local\Temp\RSPBFCF.tmp" with contents
+[
+/nologo /out:"Release\LASlib.lib" 
+.\Release\arithmeticdecoder.obj
+.\Release\arithmeticencoder.obj
+.\Release\arithmeticmodel.obj
+.\Release\fopen_compressed.obj
+.\Release\integercompressor.obj
+.\Release\lasfilter.obj
+.\Release\lasindex.obj
+.\Release\lasinterval.obj
+.\Release\lasquadtree.obj
+.\Release\lasreader.obj
+.\Release\lasreader_asc.obj
+.\Release\lasreader_bil.obj
+.\Release\lasreader_bin.obj
+.\Release\lasreader_dtm.obj
+.\Release\lasreader_las.obj
+.\Release\lasreader_qfit.obj
+.\Release\lasreader_shp.obj
+.\Release\lasreader_txt.obj
+.\Release\lasreaderbuffered.obj
+.\Release\lasreadermerged.obj
+.\Release\lasreaderpipeon.obj
+.\Release\lasreaditemcompressed_v1.obj
+.\Release\lasreaditemcompressed_v2.obj
+.\Release\lasreaditemcompressed_v3.obj
+.\Release\lasreadpoint.obj
+.\Release\lastransform.obj
+.\Release\lasutility.obj
+.\Release\laswaveform13reader.obj
+.\Release\laswaveform13writer.obj
+.\Release\laswriteitemcompressed_v1.obj
+.\Release\laswriteitemcompressed_v2.obj
+.\Release\laswriteitemcompressed_v3.obj
+.\Release\laswritepoint.obj
+.\Release\laswriter.obj
+.\Release\laswriter_bin.obj
+.\Release\laswriter_las.obj
+.\Release\laswriter_qfit.obj
+.\Release\laswriter_txt.obj
+.\Release\laswriter_wrl.obj
+.\Release\laswritercompatible.obj
+.\Release\laszip.obj
+]
+Creating command line "link.exe -lib @C:\Users\isenburg\AppData\Local\Temp\RSPBFCF.tmp"
+<h3>Output Window</h3>
+Compiling...
+arithmeticdecoder.cpp
+arithmeticencoder.cpp
+arithmeticmodel.cpp
+fopen_compressed.cpp
+integercompressor.cpp
+lasfilter.cpp
+lasindex.cpp
+lasinterval.cpp
+lasquadtree.cpp
+lasreader.cpp
+lasreader_asc.cpp
+lasreader_bil.cpp
+lasreader_bin.cpp
+lasreader_dtm.cpp
+lasreader_las.cpp
+lasreader_qfit.cpp
+lasreader_shp.cpp
+lasreader_txt.cpp
+lasreaderbuffered.cpp
+lasreadermerged.cpp
+lasreaderpipeon.cpp
+lasreaditemcompressed_v1.cpp
+lasreaditemcompressed_v2.cpp
+lasreaditemcompressed_v3.cpp
+lasreadpoint.cpp
+lastransform.cpp
+lasutility.cpp
+laswaveform13reader.cpp
+laswaveform13writer.cpp
+laswriteitemcompressed_v1.cpp
+laswriteitemcompressed_v2.cpp
+laswriteitemcompressed_v3.cpp
+laswritepoint.cpp
+laswriter.cpp
+laswriter_bin.cpp
+laswriter_las.cpp
+laswriter_qfit.cpp
+laswriter_txt.cpp
+laswriter_wrl.cpp
+laswritercompatible.cpp
+laszip.cpp
+Creating library...
+Creating temporary file "C:\Users\isenburg\AppData\Local\Temp\RSP354F.bat" with contents
+[
+@echo off
+copy Release\LASlib.lib lib\LASlib.lib
+]
+Creating command line "C:\Users\isenburg\AppData\Local\Temp\RSP354F.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+LASlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

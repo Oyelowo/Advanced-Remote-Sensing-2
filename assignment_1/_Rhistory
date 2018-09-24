@@ -1,0 +1,422 @@
+name = "llll""
+1==0
+1<0
+1>0
+a<- 56
+b<- 78
+a+b
+a-b
+name <- "bidemi"
+name * 3
+"bbb" * 3
+"bbb" * 3
+c(a,b)
+a/b
+a*b
+a%%b
+b%%a
+3%%2
+7%%5
+2**3
+2^3
+7%%5
+7%/%5
+347%/%36
+347%%36
+11:22
+22:1
+1:200
+C(1,2,5,3)
+A<-'C(1,2,5,3)
+A<-c(1,2,5,3)
+c(1,2,5,3)
+A<-c(1,2,5,3)
+a<-c(1,2,5,3)
+a
+b<-c(7,6,a)
+b''
+b
+9
+0
+11
+a<-c(2,5,3)
+a
+b<-c(a,a)
+b
+c(6,7,8)
+seq(3,66, by=2)
+seq(3,66, by=2)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = FALSE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 3)
+m
+, byrow = TRUE
+, byrow = TRUE
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m=matrix(c(a,b,c))
+m
+, ncol=3, nrow = 3, byrow = TRUE
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 2, byrow = TRUE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+set.seed(1)
+rmatrix  <-  matrix(m)
+dimnames(m) <- list(rownames(rmatrix, do.NULL = FALSE, prefix = "row"),
+colnames(rmatrix, do.NULL = FALSE, prefix = "col"))
+rmatrix  <-  matrix(m)
+dimnames(m) <- list(rownames(m, do.NULL = FALSE, prefix = "row"),
+colnames(m, do.NULL = FALSE, prefix = "col"))
+rmatrix
+(
+(
+rownames(m) <- paste('name', 1:3)
+rownames(m) <- paste('name', 1:3)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+rownames(m) <- paste('name', 1:3)
+rownames(m)
+rownames(m) <- c("r1","r2","r3")
+m
+colnames(m) <- c("A", "B", "C")
+m
+seq(1:4)
+seq(rep(4),1:4)
+rep(1:4, rep(4,4))
+rep(0:4, rep(4,4))
+rep(1:4, rep(4,4))
+rep(0:4, rep(5,5))
+rep(0:4, rep(5,4))
+rep(0:4, rep(5,5))
+rep(0:4, rep(4,5))
+rep(0:4, rep(2,5))
+rep(0:4, rep(4,5))
+rep(0:4, rep(5,5))
+seq(0:4)
+rep(0:4, each=5)
+rep(0:4, rep(5,5))
+rep(0:4, each=5)
+seq(0:4)
+rep(seq(1:4), each=4)
+rep(seq(0:4), each=4)
+rep(seq(0:4), each=4)
+rep(seq(0:5), each=4)
+rep((seq(0:4)), each=4)
+y <- seq(0:4)
+y
+rep(y, each=4)
+rep(y)
+rep(y, rep(5,5))
+rep(0:4, rep(5,5))
+rep(1:5, rep(5,5), length.out=16)
+rep(1:5, rep(5,5))
+rep(1:5, rep(5,5), length.out=25)
+rep(y, rep(5,5), length.out=25)
+rep(seq(0:4), rep(5,5), length.out=25)
+obs <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+solar.radiation <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+median(solar.radiation)
+variance(solar.radiation)
+var(solar.radiation)
+sr10 = solar.radiation + 10
+sr10
+mean(sr10)
+median(sr10)
+var(sr10)
+srm2=solar.radiation * 2
+srm2
+mean(srm2)
+median(srm2)
+var
+var(srm2)
+srm2=solar.radiation * -2
+srm2
+mean(srm2)
+median(srm2)
+var(srm2)
+runif(25, 1, 100)
+ceiling(runif(25, 1, 100))
+ceiling(runif(25, 1, 100))
+ceiling(runif(25, 1, 100))
+ceiling(runif(25, min=1, 100))
+ceiling(runif(25, min=1, max=100))
+rand=ceiling(runif(25, 1, 100))
+rand
+c(rand, ncol=5, nrow=5, nrow=T)
+c(rand, ncol=5, nrow=5, byrow=T)
+rand, ncol=5, nrow=5, byrow=T
+ceiling(runif(25, 1, 100), ncol=5, nrow=5, byrow=T)
+matrix(ceiling(runif(25, 1, 100), ncol=5, nrow=5, byrow=T))
+matrix(rand, ncol=5, nrow=5, byrow=T))
+matrix(rand, ncol=5, nrow=5, byrow=T)
+rownames(r1,r2,r3,r4,r5)
+rownames(rand) <- c(r1,r2,r3,r4,r5)
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+rownames(mat) <- c(r1,r2,r3,r4,r5)
+rownames(mat) <- c(r1,r2,r3,r4,r5)
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c(r1,r2,r3,r4,r5)
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - mat.minimum
+mat - mat.min
+mat - rand.min
+rand=ceiling(runif(25, 1, 100))
+rand
+sum(mat)
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - min(mat)
+mat - min(mat)
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - min(mat)
+character(4)
+print.matrix(mat, rowlab=character(0), collab=character(0),
+3,4
+c(3,4)
+c[3,4]
+mat[4,3]
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - min(mat)
+mat[4,3]
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2[4,3]
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2
+mat2[4,3]
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m[2,2]
+m[2,3]
+m
+rownames(m) <- c("r1","r2","r3")
+colnames(m) <- c("A", "B", "C")
+m
+rep(0:4, rep(5,5))
+rep(0:4, each=5)
+rep(1:5, rep(5,5), length.out=25)
+rep(seq(0:4), rep(5,5), length.out=25)
+solar.radiation <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+median(solar.radiation)
+var(solar.radiation)
+sr10 = solar.radiation + 10
+sr10
+mean(sr10)
+median(sr10)
+var(sr10)
+srm2=solar.radiation * -2
+srm2
+mean(srm2)
+median(srm2)
+var(srm2)
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2
+mat2[4,3]
+plot(mat)
+plot(mat2)
+plot(m)
+hist(m)
+hist(mat)
+hist(mat)
+hist(mat)
+hist(mat, col=red)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+rownames(m) <- c("r1","r2","r3")
+colnames(m) <- c("A", "B", "C")
+m
+rep(0:4, rep(5,5))
+rep(0:4, each=5)
+rep(1:5, rep(5,5), length.out=25)
+rep(seq(0:4), rep(5,5), length.out=25)
+solar.radiation <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+median(solar.radiation)
+var(solar.radiation)
+sr10 = solar.radiation + 10
+sr10
+mean(sr10)
+median(sr10)
+var(sr10)
+srm2=solar.radiation * -2
+srm2
+mean(srm2)
+median(srm2)
+var(srm2)
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2
+mat2[4,3]
+rm(list=ls())
+.libPaths("C:/Users/oyeda/Desktop/ADV_REM_SENS/library")
+setwd("C:/Users/oyeda/Desktop/ADV_REM_SENS/assignment_1")
+Lidar <- read.table(file="TEXAS_lidar.txt", head=FALSE, sep="\t") #ok
+colnames(Lidar) <- c("Year","Pulse","X","Y","Z","h","range","int","agc")
+data6<-subset(Lidar, Lidar$Year==6)
+summary(data6)
+data7<-subset(Lidar, Lidar$Year==7)
+summary(data7)
+data10<-subset(Lidar, Lidar$Year==10)
+summary(data10)
+xrange<- (max(data6$X)-min(data6$X))
+yrange<- (max(data6$Y)-min(data6$Y))
+area_pd= xrange * yrange  #area of the plot fot calculating pulse density
+area_pd
+fiSi6<- length(data6$Pulse=="Fi" & data6$Pulse=="Si")
+fiAndSiPulse6 <- 18935 + 38995
+fiSi6
+fiSi6<- length(data6$Pulse=="Fi" | data6$Pulse=="Si")
+a<- subset(data6$Pulse=="Fi" & data6$Pulse="Si")
+a<- subset(data6$Pulse=="Fi" & data6$Pulse=="Si")
+a<- subset(data6, data6$Pulse=="Fi" & data6$Pulse=="Si")
+a<- subset(data6, data6$Pulse=="Fi" | data6$Pulse=="Si")
+lenght(a)
+lenght(a$Pulse)
+length(a$Pulse)
+length(a)
+fiSi6<- length(data, data6$Pulse=="Fi" | data6$Pulse=="Si")
+fiSi6<- length(subset((data&, data6$Pulse=="Fi" |
+data6$Pulse=="Si")))
+fiSi6<- length(subset((data&, data6$Pulse=="Fi" |
+data6$Pulse=="Si")))
+fiSi6<- length(subset((data6, data6$Pulse=="Fi" |
+data6$Pulse=="Si")))
+fiSi6<- length(subset((data6, data6$Pulse=="Fi" | data6$Pulse=="Si")))
+fiSi6<- length(subset(data6, data6$Pulse=="Fi" | data6$Pulse=="Si"))
+iSi6
+fiSi6
+fiSi6<- length((subset(data6, data6$Pulse=="Fi" | data6$Pulse=="Si")) $ Pulse)
+fiSi6
+fiSi6<- length((subset(data6, data6$Pulse=="Fi" |
+data6$Pulse=="Si")) $ Pulse)
+fiSi6
+fiSi6<- subset(data6, data6$Pulse=="Fi" | data6$Pulse=="Si")
+fiSi6<-length(fiSi6$Pulse)
+fiSi6<- subset(data6, data6$Pulse=="Fi" | data6$Pulse=="Si")
+rm(list=ls())
+.libPaths("C:/Users/oyeda/Desktop/ADV_REM_SENS/library")
+setwd("C:/Users/oyeda/Desktop/ADV_REM_SENS/assignment_1")
+Lidar <- read.table(file="TEXAS_lidar.txt", head=FALSE, sep="\t") #ok
+colnames(Lidar) <- c("Year","Pulse","X","Y","Z","h","range","int","agc")
+data6<-subset(Lidar, Lidar$Year==6)
+summary(data6)
+data7<-subset(Lidar, Lidar$Year==7)
+summary(data7)
+data10<-subset(Lidar, Lidar$Year==10)
+summary(data10)
+xrange<- (max(data6$X)-min(data6$X))
+yrange<- (max(data6$Y)-min(data6$Y))
+area_pd= xrange * yrange  #area of the plot fot calculating pulse density
+area_pd
+fiSi6<- subset(data6, data6$Pulse=="Fi" | data6$Pulse=="Si")
+fiSi6<-length(fiSi6$Pulse)
+fiSi6_direct<- length((subset(data6, data6$Pulse=="Fi" |
+data6$Pulse=="Si")) $ Pulse)
+fiSi6
+fiSi6_direct
+density6 <- fiAndSi6/area_pd
+density6 <- fiSi6/area_pd
+density6
+fisii<- length(subset(Lidar$Year==6 &(Lidar$Pulse=="Fi" | Lidar$Pulse=="Si")))$Pulse)
+fisii<- length(subset(Lidar$Year==6 &(Lidar$Pulse=="Fi"
+| Lidar$Pulse=="Si"))$Pulse)
+fisii<- length(subset(Lidar,Lidar$Year==6 &(Lidar$Pulse=="Fi"
+| Lidar$Pulse=="Si"))$Pulse)
+fisii
+fiSi7<-length(subset(data7$Pulse=="Fi" | data7$Pulse=="Si"))$Pulse)
+fiSi7<-length((subset(data7$Pulse=="Fi" | data7$Pulse=="Si"))$Pulse)
+fiSi7<-length((subset(data7, data7$Pulse=="Fi" | data7$Pulse=="Si"))$Pulse)
+fiSi7<-length(subset(data7, data7$Pulse=="Fi" | data7$Pulse=="Si"))$Pulse)
+(
+fiSi7<-length((subset(data7, data7$Pulse=="Fi" | data7$Pulse=="Si"))$Pulse)
+density7 <- fiSiarea_pd
+density7 <- fiSi/area_pd
+density7 <- fiSi7/area_pd
+fiSi10<-length((subset(data10, data10$Pulse=="Fi" |
+data10$Pulse=="Si"))$Pulse)
+fiAndSiPulse10 <- 67577 + 164395
+density10 <- fiAndSiPulse10/area_pd
+density10 <- fiSi10/area_pd
+density10
+densit10 <- fiSi10/area_pd
+densit10

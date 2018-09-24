@@ -1,0 +1,512 @@
+c<-c(7, 3, 1)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = FALSE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 3)
+m
+, byrow = TRUE
+, byrow = TRUE
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m=matrix(c(a,b,c))
+m
+, ncol=3, nrow = 3, byrow = TRUE
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 2, byrow = TRUE)
+m
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+set.seed(1)
+rmatrix  <-  matrix(m)
+dimnames(m) <- list(rownames(rmatrix, do.NULL = FALSE, prefix = "row"),
+colnames(rmatrix, do.NULL = FALSE, prefix = "col"))
+rmatrix  <-  matrix(m)
+dimnames(m) <- list(rownames(m, do.NULL = FALSE, prefix = "row"),
+colnames(m, do.NULL = FALSE, prefix = "col"))
+rmatrix
+(
+(
+rownames(m) <- paste('name', 1:3)
+rownames(m) <- paste('name', 1:3)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+rownames(m) <- paste('name', 1:3)
+rownames(m)
+rownames(m) <- c("r1","r2","r3")
+m
+colnames(m) <- c("A", "B", "C")
+m
+seq(1:4)
+seq(rep(4),1:4)
+rep(1:4, rep(4,4))
+rep(0:4, rep(4,4))
+rep(1:4, rep(4,4))
+rep(0:4, rep(5,5))
+rep(0:4, rep(5,4))
+rep(0:4, rep(5,5))
+rep(0:4, rep(4,5))
+rep(0:4, rep(2,5))
+rep(0:4, rep(4,5))
+rep(0:4, rep(5,5))
+seq(0:4)
+rep(0:4, each=5)
+rep(0:4, rep(5,5))
+rep(0:4, each=5)
+seq(0:4)
+rep(seq(1:4), each=4)
+rep(seq(0:4), each=4)
+rep(seq(0:4), each=4)
+rep(seq(0:5), each=4)
+rep((seq(0:4)), each=4)
+y <- seq(0:4)
+y
+rep(y, each=4)
+rep(y)
+rep(y, rep(5,5))
+rep(0:4, rep(5,5))
+rep(1:5, rep(5,5), length.out=16)
+rep(1:5, rep(5,5))
+rep(1:5, rep(5,5), length.out=25)
+rep(y, rep(5,5), length.out=25)
+rep(seq(0:4), rep(5,5), length.out=25)
+obs <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+solar.radiation <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+median(solar.radiation)
+variance(solar.radiation)
+var(solar.radiation)
+sr10 = solar.radiation + 10
+sr10
+mean(sr10)
+median(sr10)
+var(sr10)
+srm2=solar.radiation * 2
+srm2
+mean(srm2)
+median(srm2)
+var
+var(srm2)
+srm2=solar.radiation * -2
+srm2
+mean(srm2)
+median(srm2)
+var(srm2)
+runif(25, 1, 100)
+ceiling(runif(25, 1, 100))
+ceiling(runif(25, 1, 100))
+ceiling(runif(25, 1, 100))
+ceiling(runif(25, min=1, 100))
+ceiling(runif(25, min=1, max=100))
+rand=ceiling(runif(25, 1, 100))
+rand
+c(rand, ncol=5, nrow=5, nrow=T)
+c(rand, ncol=5, nrow=5, byrow=T)
+rand, ncol=5, nrow=5, byrow=T
+ceiling(runif(25, 1, 100), ncol=5, nrow=5, byrow=T)
+matrix(ceiling(runif(25, 1, 100), ncol=5, nrow=5, byrow=T))
+matrix(rand, ncol=5, nrow=5, byrow=T))
+matrix(rand, ncol=5, nrow=5, byrow=T)
+rownames(r1,r2,r3,r4,r5)
+rownames(rand) <- c(r1,r2,r3,r4,r5)
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+rownames(mat) <- c(r1,r2,r3,r4,r5)
+rownames(mat) <- c(r1,r2,r3,r4,r5)
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c(r1,r2,r3,r4,r5)
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - mat.minimum
+mat - mat.min
+mat - rand.min
+rand=ceiling(runif(25, 1, 100))
+rand
+sum(mat)
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - min(mat)
+mat - min(mat)
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - min(mat)
+character(4)
+print.matrix(mat, rowlab=character(0), collab=character(0),
+3,4
+c(3,4)
+c[3,4]
+mat[4,3]
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat - min(mat)
+mat[4,3]
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2[4,3]
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2
+mat2[4,3]
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+m[2,2]
+m[2,3]
+m
+rownames(m) <- c("r1","r2","r3")
+colnames(m) <- c("A", "B", "C")
+m
+rep(0:4, rep(5,5))
+rep(0:4, each=5)
+rep(1:5, rep(5,5), length.out=25)
+rep(seq(0:4), rep(5,5), length.out=25)
+solar.radiation <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+median(solar.radiation)
+var(solar.radiation)
+sr10 = solar.radiation + 10
+sr10
+mean(sr10)
+median(sr10)
+var(sr10)
+srm2=solar.radiation * -2
+srm2
+mean(srm2)
+median(srm2)
+var(srm2)
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2
+mat2[4,3]
+plot(mat)
+plot(mat2)
+plot(m)
+hist(m)
+hist(mat)
+hist(mat)
+hist(mat)
+hist(mat, col=red)
+a<-c(4, 5, 33)
+b<-c(-48, 0, 45)
+c<-c(7, 3, 1)
+m=matrix(c(a,b,c), ncol=3, nrow = 3, byrow = TRUE)
+m
+rownames(m) <- c("r1","r2","r3")
+colnames(m) <- c("A", "B", "C")
+m
+rep(0:4, rep(5,5))
+rep(0:4, each=5)
+rep(1:5, rep(5,5), length.out=25)
+rep(seq(0:4), rep(5,5), length.out=25)
+solar.radiation <- c(11.1, 10.6, 6.3, 8.8, 10.7, 11.2, 8.9, 12.2)
+mean(solar.radiation)
+median(solar.radiation)
+var(solar.radiation)
+sr10 = solar.radiation + 10
+sr10
+mean(sr10)
+median(sr10)
+var(sr10)
+srm2=solar.radiation * -2
+srm2
+mean(srm2)
+median(srm2)
+var(srm2)
+rand=ceiling(runif(25, 1, 100))
+rand
+mat=matrix(rand, ncol=5, nrow=5, byrow=T)
+mat
+rownames(mat) <- c("r1","r2","r3","r4","r5")
+colnames(mat) <- c("c1","c2","c3","c4","c5")
+mat
+sum(mat)
+mat2=mat - min(mat)
+mat2
+mat2[4,3]
+rm(list=ls())
+setwd("C:/Users/oyeda/Desktop/ADV_REM_SENS/assignment4")
+.libPaths("C:/Users/oyeda/Desktop/ADV_REM_SENS/library")
+try<- read.csv(RMSE)
+setwd("C:/Users/oyeda/Desktop/ADV_REM_SENS/assignment4")
+try<- read.csv(RMSE.csv)
+try<- read.table(RMSE.txt)
+try<- read.table("RMSE.txt")
+try<- read.table("RMSE.txt", sep = "\t")
+View(try)
+View(try)
+try<- read.table("RMSE.txt", sep = "\t", skip = 3, header= T )
+View(try)
+View(try)
+attach(try)
+help(rmse)
+rmse <- function(actual, predicted)
+{
+sqrt(mean((actual - predicted)^2))
+}
+mae <- function(actual, predicted)
+{
+mean(abs(actual - predicted))
+}
+help(rmse)
+rmse(Measured.value, Explanatory.variable)
+cor(Measured.value, Explanatory.variable)
+plot(Measured.value, Explanatory.variable)
+plot(~try, Measured.value+ Explanatory.variable)
+plot(~ Measured.value+ Explanatory.variable)
+plot(~ Measured.value+ Explanatory.variable)
+plot( Explanatory.variable, Explanatory.variable)
+xyplot( Explanatory.variable, Explanatory.variable)
+plot.xy( Explanatory.variable, Explanatory.variable)
+rmse(Measured.value, Predicted.value)
+fit <- lm(Measured.value ~ Explanatory.variable , data = try)
+summary(fit)
+?lm
+plot(Measured.value ~ Explanatory.variable , data = try)
+abline(coef(fit)[1:2])
+cf <- round(coef(fit), 2)
+eq <- paste0("mpg = ", cf[1],
+ifelse(sign(cf[2])==1, " + ", " - "), abs(cf[2]), " cyl ",
+ifelse(sign(cf[3])==1, " + ", " - "), abs(cf[3]), " hp")
+eq <- paste0("measure.value = ", cf[1],
+ifelse(sign(cf[2])==1, " + ", " - "), abs(cf[2]), " exp.va ",)
+eq <- paste0("measure.value = ", cf[1],
+ifelse(sign(cf[2])==1, " + ", " - "), abs(cf[2]), " exp.va ")
+mtext(eq, 3, line=-2)
+fit <- lm(Explanatory.variable, Measured.value)
+plot( Explanatory.variable, Explanatory.variable)
+plot( Explanatory.variable, Measured.value)
+fit <- lm(Explanatory.variable, Measured.value)
+fit <- lm(Explanatory.variable, Measured.value, data = try)
+fit <- lm(Measured.value, Explanatory.variable)
+fit <- lm(Measured.value ~ Explanatory.variable)
+fit <- lm(Measured.value ~ Explanatory.variable, data = try)
+summary(fit)
+?lm
+summary(fit)
+?abline
+abline(a= -9.2881, b = 2.0491)
+abline(a= -9.2881, b = 2.0491, h= 25, v= 17)
+plot(Explanatory.variable, Measured.value)
+fit <- lm(Measured.value ~ Explanatory.variable, data = try)
+summary(fit)
+[1:2]
+abline(coef = coef(fit))
+[1:2]
+[1:2]
+1:2
+1:200
+?abline(coef(fit)[1:2])
+abline(coef(fit)[1:2])
+abline(coef = coef(fit))
+summary(cf)
+cf <- data.frame(round(coef(fit), 2)
+## sign check to avoid having plus followed by minus for negative coefficients
+eq <- paste0("measure.value = ", cf[1],
+ifelse(sign(cf[2])==1, " + ", " - "), abs(cf[2]), " exp.va ")
+mtext("mywifesonja= ", coef(fit), ifelse())
+## printing of the equation
+mtext(eq, 3, line=-2)
+cf <- data.frame(round(coef(fit), 2)
+## sign check to avoid having plus followed by minus for negative coefficients
+eq <- paste0("measure.value = ", cf[1],
+ifelse(sign(cf[2])==1, " + ", " - "), abs(cf[2]), " exp.va ")
+mtext("mywifesonja= ", coef(fit), ifelse())
+## printing of the equation
+mtext(eq, 3, line=-2)
+rm(list=ls())
+setwd("C:/Users/oyeda/Desktop/ADV_REM_SENS/assignment4")
+.libPaths("C:/Users/oyeda/Desktop/ADV_REM_SENS/library")
+Lidar <- read.table(file="TEXAS_lidar.txt", head=FALSE, sep="\t")
+colnames(Lidar) <- c("Year","Pulse","X","Y","Z","h","range","int","agc")
+summary(Lidar)
+library(sp)
+library(maptools)
+library(rgdal)
+coordinates(Lidar) = c("X", "Y")
+S <- readShapePoly("TrainingTrees.shp") #Tree segments
+SP <- as(S, "SpatialPolygons")
+plot(SP, col="red")
+Lidar$In <- over(Lidar,SP)
+Lidar10 <- subset(Lidar, Lidar$Year==10 & Lidar$In!="NA")
+Lidar10<-data.frame(Lidar10)
+tail(Lidar10)
+summary (Lidar10)
+ID<-X<-Y<-Hmax<-Hmean<-Hstd<-CV<-VD<-h10<-h20<-h30<-h40<-h50<-h60<-
+h70<-h80<-h90<-0
+lfisi2 <- subset(Lidar10, (Lidar10$Pulse=="Fi" | Lidar10$Pulse=="Si") )
+lfisi<- subset(lfisi2, lfisi2$h>2 &lfisi2$h<50)
+for (i in sort(unique(lfisi$In))) {
+#subset only first and single echoes!
+lfisi2 <- subset(Lidar10, (Lidar10$Pulse=="Fi" | Lidar10$Pulse=="Si") )
+lfisi<- subset(lfisi2, lfisi2$h>2 &lfisi2$h<50)
+lfisi<-subset(lfisi, lfisi$In == i)
+ID[i]<- i
+#the below is done for the joining operation in Arcgis for the
+#field data column with numbers running from 0 to 103
+#also note:  you can also use #can also use: ID2<-seq(0, 103)
+#or ID2<- seq(0, i-1) but when using the sequence, avoid the vector [i]
+#as it will generate 0 throughout the column instead of
+#sequencing from 0 to 103. This is because it returns
+#NB: I decided not to use this anymore because I joined
+#the field data and lidar data directly here
+#ID2[i]<- i-1
+X[i] <- lfisi[which.max(lfisi[,"h"]),"X"] #Returns "X" from the point that has the maximum "h" value
+Y[i] <- lfisi[which.max(lfisi[,"h"]),"Y"]   #Returns "Y" from the point that has the maximum "h" value
+Hmax[i] <- lfisi[which.max(lfisi[,"h"]),"h"]
+Hmean[i]<-mean(lfisi$h)
+Hstd[i]<- sd(lfisi$h)
+#CV[i]<- (Hstd[i]/ Hmean[i])
+#or
+CV[i]<-sd(lfisi$h)/mean(lfisi$h)
+h10[i]<-quantile(lfisi$h, probs = c(0.1))
+h20[i]<-quantile(lfisi$h, probs = c(0.2))
+h30[i]<-quantile(lfisi$h, probs = c(0.3))
+h40[i]<-quantile(lfisi$h, probs = c(0.4))
+h50[i]<-quantile(lfisi$h, probs = c(0.5))
+h60[i]<-quantile(lfisi$h, probs = c(0.6))
+h70[i]<-quantile(lfisi$h, probs = c(0.7))
+h80[i]<-quantile(lfisi$h, probs = c(0.8))
+h90[i]<-quantile(lfisi$h, probs = c(0.9))
+VD[i]<- (nrow(lfisi)*100/nrow(lfisi2))
+#0r
+#VD[i]<- (length(lfisi$h)*100/length(lfisi2$h))
+output <- cbind.data.frame(ID,X,Y, Hmax, Hmean, Hstd, CV,VD,h10,h20,
+h30,h40,h50,h60,h70,h80,h90)
+}
+hist(output$Hmean, main = "vertical point height distributions",
+xlab = "Height", col = "purple")
+fieldLidarDf<-cbind.data.frame(S,output)
+rmse <- function(actual, predicted)
+{
+sqrt(mean((actual - predicted)^2))
+}
+mae <- function(actual, predicted)
+{
+mean(abs(actual - predicted))
+}
+summary(fieldLidarDf)
+colnames(fieldLidarDf)[7]<-c("X1")
+colnames(fieldLidarDf)[19]<-c("X2")
+colnames(fieldLidarDf)[8]<-c("Y1")
+colnames(fieldLidarDf)[20]<-c("Y2")
+fieldLidarDf2<-fieldLidarDf
+RMSE_X<-rmse(fieldLidarDf2$X1, fieldLidarDf2$X2)
+RMSE_Y<-rmse(fieldLidarDf2$Y1, fieldLidarDf2$Y2)
+RMSE_H<-rmse(fieldLidarDf2$h, fieldLidarDf2$Hmax)
+MAE_X<-mae(fieldLidarDf2$X1, fieldLidarDf2$X2)
+MAE_Y<-mae(fieldLidarDf2$Y1, fieldLidarDf2$Y2)
+MAE_H<-mae(fieldLidarDf2$h, fieldLidarDf2$Hmax)
+errors<-cbind.data.frame(RMSE_X,RMSE_Y,RMSE_H,MAE_X,MAE_Y,MAE_H)
+View(errors)
+View(errors)
+par(mfrow=c(1,3))
+plot(fieldLidarDf2$X1, fieldLidarDf2$X2, xlab="X_actual",
+ylab="X_predicted", main= "Predicted X vs Actual X")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(fieldLidarDf2$X1, fieldLidarDf2$X2),5)))
+plot(fieldLidarDf2$Y1, fieldLidarDf2$Y2,xlab="Y_actual",
+ylab="Y_predicted", main= "Predicted Y vs Actual Y")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(fieldLidarDf2$Y1, fieldLidarDf2$Y2),5)))
+plot(fieldLidarDf2$h, fieldLidarDf2$Hmax, xlab="Height_actual",
+ylab="Height_predicted", main= "Predicted Height vs Actual Height")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(fieldLidarDf2$h, fieldLidarDf2$Hmax),5)))
+fieldLidarDf2<-fieldLidarDf
+ID_Sp<-rmse_X<-rmse_Y<-rmse_H<-mae_X<-mae_Y<-mae_H<-0
+for (i in sort(unique(fieldLidarDf2$Species))){
+#fieldLidarDf2<-fieldLidarDf2
+b<- subset(fieldLidarDf2, fieldLidarDf2$Species==i)
+ID_Sp[i]<-i
+rmse_X[i]=rmse(b$X1, b$X2)
+rmse_Y[i]<-rmse(b$Y1, b$Y2)
+rmse_H[i]<-rmse(b$h, b$Hmax)
+mae_X[i]=mae(b$X1, b$X2)
+mae_Y[i]<-mae(b$Y1, b$Y2)
+mae_H[i]<-mae(b$h, b$Hmax)
+res=cbind.data.frame(ID_Sp,rmse_X,rmse_Y,rmse_H,mae_X, mae_Y, mae_H)
+}
+sp1<- subset(fieldLidarDf2, fieldLidarDf2$Species==1)
+sp2<- subset(fieldLidarDf2, fieldLidarDf2$Species==2)
+hist(sp1$Hmax, col = "red")
+hist(sp2$Hmax, col = "green")
+par(mfcol=c(2,3))
+plot(sp1$X1, sp1$X2, main= "species 1 X coordinate", col="red",
+xlab="Actual", ylab="predicted")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(sp1$X1, sp1$X2),5)))
+plot(sp2$X1, sp2$X2, main= "species 2 X coordinate", col="blue",
+xlab="Actual", ylab="predicted")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(sp2$X1, sp2$X2),5)))
+plot(sp1$Y1, sp1$Y2, main= "species 1 Y coordinate", col="red",
+xlab="Actual", ylab="predicted")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(sp1$Y1, sp1$Y2),5)))
+plot(sp2$Y1, sp2$Y2, main= "species 2 Y coordinate", col="blue",
+xlab="Actual", ylab="predicted")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(sp2$Y1, sp2$Y2),5)))
+plot(sp1$h, sp1$Hmax, main= "species 1 height", col="red",
+xlab="Actual", ylab="predicted")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(sp1$h, sp1$Hmax),5)))
+plot(sp2$h, sp2$Hmax, main= "species 2 height", col="blue",
+xlab="Actual", ylab="predicted")
+legend(x='bottomright', legend=paste('Cor =',
+round(cor(sp2$h, sp2$Hmax),5)))
+write.table(output, file = "ouput.csv", dec=".", sep=",",row.names=F)
+write.table(output, file="ouput.txt", dec=".", sep="\t",row.names=F)
+write.table(errors, file = "errors.csv", dec=".", sep=",",row.names=F)
+write.table(res, file = "res.csv", dec=".", sep=",",row.names=F)
+write.table(fieldLidarDf2, file = "fieldLidarDf2.csv", dec=".", sep=",",row.names=F)
